@@ -3,7 +3,7 @@ import { Bot } from "grammy";
 const token = process.env.BOT_TOKEN;
 if (!token) throw new Error("BOT_TOKEN is unset");
 
-const API_TOKEN = "EG71ZjbssmLU05iu5tiSJFYtL7HSvRyaVKUWFiLloXg";
+const API_TOKEN = "<your-api-token>";
 const API_URL = "http://localhost:3000";
 
 export const bot = new Bot(token);
